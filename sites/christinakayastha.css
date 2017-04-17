@@ -12,27 +12,57 @@
 /****** <body> ******/
 body {
   width: 900px;
-  background: #03A9F4; 
+  background: #03A9F4;
+  margin: 50px auto;
+  border: 5px solid #000000;
   font-family: Verdana, Geneva, sans-serif;
-  color: #263238 /* This is the color of the font */
+  color: #000000;
+  text-align: center;
 }
 
 /****** <header> ******/
 header {
-  height: 100px;
+  padding: 10px;
   background: #E3F2FD;
 }
 
 /****** <main> ******/
-header {
+main {
   height: 100px;
   background: #009688;
 }
 
 /****** <footer> ******/
-header {
-  height: 50px;
+footer {
+  padding: 10px;
   background: #E3F2FD;
+}
+
+/****** class=speech ******/
+.speech {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.speech img {
+  background: #FFFFFF;
+  border-radius: 50%; /* This makes it a circle */
+  border: 5px solid #000000;
+}
+
+/****** class=columns ******/
+.columns {
+  display: flex;
+}
+
+.columns div img {
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+
+.columns div div {
+  margin: 10px;
 }
 
 /****** Speech Bubble ******/
@@ -56,9 +86,9 @@ header {
   width: 0;
   height: 0;
   
-  border-top: 13px solid transparent;
-  border-right: 26px solid #3F51B5;
-  border-bottom: 13px solid transparent;
+  border-top: 20px solid transparent;
+  border-right: 30px solid #3F51B5;
+  border-bottom: 30px solid transparent;
 }
 
 /****** 
