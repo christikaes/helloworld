@@ -1,0 +1,71 @@
+/****** 
+  This is a .css file. CSS stands for Cascading Style Sheets.
+  This file has all of the information about the styling of the website.
+  You can edit this file to change the apparance of your page.
+  
+  Play around with:
+  * [Colors] This file has a bunch of HEX colors, you can see more colors here: https://www.materialui.co/colors
+  * [Size] You can change the width and height of different elements and see what happens.
+  * [Font] Try and change the font-family to something different: https://www.w3schools.com/cssref/css_websafe_fonts.asp
+******/
+
+/****** <body> ******/
+body {
+  width: 900px;
+  background: #03A9F4; 
+  font-family: Verdana, Geneva, sans-serif;
+  color: #263238 /* This is the color of the font */
+}
+
+/****** <header> ******/
+header {
+  height: 100px;
+  background: #E3F2FD;
+}
+
+/****** <main> ******/
+header {
+  height: 100px;
+  background: #009688;
+}
+
+/****** <footer> ******/
+header {
+  height: 50px;
+  background: #E3F2FD;
+}
+
+/****** Speech Bubble ******/
+.bubble {
+  position: relative;
+  width: 300px;
+  height: 125px;
+  
+  padding: 10px;
+  border-radius: 5px;
+  border: solid #3F51B5;
+  background: #3F51B5;
+  color: #E8EAF6;
+}
+
+.bubble:before {
+  content:"";
+  position: absolute;
+  right: 100%;
+  top: 26px;
+  width: 0;
+  height: 0;
+  
+  border-top: 13px solid transparent;
+  border-right: 26px solid #3F51B5;
+  border-bottom: 13px solid transparent;
+}
+
+/****** 
+  Done already?
+  
+  Here are some challenges:
+  * Change the background of your body to be an image
+  * Change some colors when the mouse hovers over something (hint: :hover)
+  * Check out some transition animations (you can combine this with hover)
+******/
